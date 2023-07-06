@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even){
+            background-color: rgba(104, 103, 103, 0.486);
+        }
+
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em tela pequena</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae accusamus voluptates nam vitae magni eligendi nesciunt repellat quis odio a. Modi cumque, id nisi vitae quas numquam inventore incidunt voluptatibus!</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabela</caption>
+        
+            <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tv</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <th>Freezer</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <th>Geladeira</th>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+        
+        </table>
+    </div>
+
+</body>
+</html>
