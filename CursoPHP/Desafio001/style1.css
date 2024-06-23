@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+   
+}
+
+body{
+    background-color: rebeccapurple;
+}
+
+.container{
+    left: 200px;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container h1 {
+    display: flex;
+    top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    background-color: rgba(201, 51, 201, 0.397);
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    top: 100px;
+    left: 100px;
+}
+
+.calc p{
+    
+    background-color: rgb(124, 8, 190);
+    width: 50px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.escrita input{
+    color: aliceblue;
+    margin: 5px;
+    color: black;
+}
+
+.bot input{
+    width: 200px;
+    height: 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.resul{
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.resul button{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+}

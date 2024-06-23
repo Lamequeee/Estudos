@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.container{
+ width: 400px;
+ height: 200px;
+ border-radius: 10px;
+ background-color: aliceblue;
+ color: black;
+
+}
